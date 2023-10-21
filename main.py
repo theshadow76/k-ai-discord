@@ -120,7 +120,7 @@ async def on_message(message):
             await message.channel.send(f"I am sorry, something went wrong: {e}")
 
 def run_bot():
-    client.run('MTEyODc0NjU0MDE0NDUzMzU3NQ.Gzlafr.Z1xtQgZmEWRM0TdOsXJ8jk4lboNqiEhWKe5bM0')
+    client.run('')
 
 @app.on_event("startup")
 async def startup_event():
